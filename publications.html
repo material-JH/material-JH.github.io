@@ -41,78 +41,70 @@
 
     const PUBS = [
       {
-        num: 25, type: "journal", year: 2026, status: "accepted",
+        num: 23, type: "journal", year: 2026, status: "accepted",
         authors: [A("Yaolong Xing", { eq: true }), A("Jinho Byun", { eq: true }), A("Kyeong Tae Kang"), A("Jaejin Hwang"), A("Jaekwang Lee"), A("Woo Seok Choi"), A("Sang Ho Oh", { corr: true })],
         title: "Atomic-Scale Visualization of Vacancy-Ordered Intermediates and Pathway Selection in the Perovskite–Infinite-Layer Transformation",
         venue: "Journal of the American Chemical Society", venueYear: "2026",
         doi: "10.1021/jacs.6c08044"
       },
       {
-        num: 24, type: "journal", year: null, status: "under-review",
+        num: 22, type: "journal", year: null, status: "under-review",
         authors: [A("Keeyong Lee", { eq: true }), A("Yaolong Xing", { eq: true }), A("Jinho Byun", { eq: true }), A("Myoungho Jeong", { eq: true }), A("Jinsol Seo"), A("Jaewoo Lee"), A("Jeong Il Bang"), A("Haeryong Kim"), A("Eunha Lee", { corr: true }), A("Sang Ho Oh", { corr: true })],
         title: "Visualizing Oxygen Vacancy-Induced Dielectric Dead Layer at Metal-Oxide Interfaces by In-situ Multimodal Electron Microscopy",
         venue: "Science Advances", venueYear: "under review, Round 2",
       },
       {
-        num: 23, type: "journal", year: null, status: "accepted",
+        num: 21, type: "journal", year: null, status: "accepted",
         authors: [A("Jeehun Jeong", { eq: true }), A("Jinho Byun", { eq: true }), A("Xiaoshan Xu"), A("Alexei Gruverman"), A("Jaekwang Lee"), A("Sang Ho Oh", { corr: true })],
         title: "Direct Visualization of Interfacial Defect Effects on Polarization Switching in BaTiO3 Tunnel Junctions",
         venue: "Science Advances", venueYear: "accepted, pending technical revision",
       },
       {
-        num: 22, type: "journal", year: null, status: "under-review",
+        num: 20, type: "journal", year: null, status: "under-review",
         authors: [A("Hojin Lee"), A("Joonbong Lee"), A("Jinho Byun"), A("Sang-Hyeok Yang"), A("Ayoung Cho"), A("Sangwoo Lee"), A("Dae Haa Ryu"), A("Hyunbin Chung"), A("Hee Seo Yun"), A("Moon Seop Choi"), A("Yesul Choi"), A("Sungkyun Park"), A("Min-Hyung Jung"), A("Dongwon Lee"), A("Yoon-Uk Heo"), A("Hu Young Jeong"), A("Young-Min Kim", { corr: true }), A("Jaekwang Lee", { corr: true }), A("Taekjib Choi", { corr: true })],
         title: "Interface-Engineered Hybrid Ferroelectric Tunnel Junctions Exhibiting Intrinsic Nonlinearity and Self-Rectification via Antiphase-Like Interlayer Formation",
         venue: "Advanced Functional Materials", venueYear: "under review, Round 2 (ms. 7502704)",
       },
       {
-        num: 21, type: "journal", year: null, status: "under-review",
+        num: 19, type: "journal", year: null, status: "under-review",
         authors: [A("Yaolong Xing", { eq: true }), A("Jinho Byun", { eq: true }), A("Jinsol Seo"), A("Zhen Wang"), A("Y. Jin"), A("S. Kim"), A("Jaekwang Lee"), A("Sang Ho Oh", { corr: true })],
         title: "Geometry-driven surface electron dichotomy via ordered subsurface defects",
         venue: "Nature Physics", venueYear: "under review",
-      },
-      {
-        num: 20, type: "journal", year: 2026,
-        authors: [A("Jinho Byun"), A("Jae-Gil Min"), A("S. Kim"), A("J. Son"), A("J. Kim"), A("Y. Lee"), A("S. Kim")],
-        title: "Retention-Resilient ECRAM–PIM Training System With Device-Algorithm-Controller Co-Design",
-        venue: "IEEE Transactions on Circuits and Systems I: Regular Papers", venueYear: "2026",
-      },
-      {
-        num: 19, type: "journal", year: 2026,
-        authors: [A("H. Kim"), A("Jinho Byun"), A("J. Park"), A("K. Lee"), A("D. Ha"), A("S. Kim")],
-        title: "A Novel Indium Gallium Zinc Oxide Channel-Based Electrochemical Field Effect Transistor for Physical Reservoir Computing",
-        venue: "Advanced Intelligent Systems", venueYear: "8 (1), 2500285 (2026)",
       },
       {
         num: 18, type: "preprint", year: 2025,
         authors: [A("Jinho Byun", { eq: true }), A("Keeyong Lee", { eq: true }), A("Myoungho Jeong"), A("Eunha Lee"), A("Jeong Il Bang"), A("Haeryong Kim"), A("Geun Ho Gu", { corr: true }), A("Sang Ho Oh", { corr: true })],
         title: "Imaging 3D polarization dynamics via deep learning 4D-STEM",
         venue: "arXiv", venueYear: "2506.06598 (2025)",
-        url: "https://arxiv.org/abs/2506.06598"
+        doi: "10.48550/arXiv.2506.06598"
       },
       {
         num: 17, type: "journal", year: 2025,
         authors: [A("Yaolong Xing"), A("Illhwan Kim"), A("Kyeong Tae Kang"), A("Jinho Byun"), A("Woo Seok Choi"), A("Jaekwang Lee"), A("Sang Ho Oh", { corr: true })],
         title: "Monitoring the formation of infinite-layer transition metal oxides through in situ atomic-resolution electron microscopy",
         venue: "Nature Chemistry", venueYear: "17, 66–73 (2025)",
+        doi: "10.1038/s41557-024-01617-7"
       },
       {
         num: 16, type: "journal", year: 2024,
         authors: [A("Jinsol Seo"), A("Hyeonjun Lee"), A("Kyoungjun Eom"), A("Jinho Byun"), A("Taehwan Min"), A("Jaekwang Lee"), A("Kyounghwan Lee"), A("Chang-Beom Eom"), A("Sang Ho Oh")],
         title: "Field-induced modulation of two-dimensional electron gas at LaAlO3/SrTiO3 interface by polar distortion of LaAlO3",
         venue: "Nature Communications", venueYear: "15, 5268 (2024)",
+        doi: "10.1038/s41467-024-48946-2"
       },
       {
         num: 15, type: "journal", year: 2024,
         authors: [A("Jaejin Hwang"), A("Jinho Byun"), A("H. Kim"), A("Jaekwang Lee")],
         title: "High-mobility two-dimensional electron gas at the PbZr0.5Ti0.5O3/BaSnO3 heterostructure",
         venue: "Journal of the Korean Physical Society", venueYear: "84 (1), 67–72 (2024)",
+        doi: "10.1007/s40042-023-00978-5"
       },
       {
         num: 14, type: "journal", year: 2023,
         authors: [A("Zhen Wang", { eq: true }), A("Jinho Byun", { eq: true }), A("Zhen Wang"), A("Yaolong Xing"), A("Jinsol Seo"), A("Jaekwang Lee"), A("Sang Ho Oh", { corr: true })],
         title: "Direct Observation of Atomic Step-Assisted Stabilization of Polar Surfaces",
         venue: "Advanced Materials", venueYear: "35 (40), 2303051 (2023)",
+        doi: "10.1002/adma.202303051"
       },
       {
         num: 13, type: "patent", year: 2023,
@@ -125,72 +117,84 @@
         authors: [A("Zhen Wang", { eq: true }), A("Jinho Byun", { eq: true }), A("S. Lee"), A("Jinsol Seo"), A("B. Park"), A("J. Kim"), A("Hu Young Jeong"), A("Jeong Il Bang"), A("Jaekwang Lee"), A("Sang Ho Oh", { corr: true })],
         title: "Vacancy driven surface disorder catalyzes anisotropic evaporation of polar ZnO (0001) surface",
         venue: "Nature Communications", venueYear: "13, 5616 (2022)",
+        doi: "10.1038/s41467-022-33353-2"
       },
       {
         num: 11, type: "journal", year: 2022,
         authors: [A("Y. Ha"), A("Jinho Byun"), A("Jaekwang Lee"), A("J. Son"), A("Y. Kim"), A("S. Lee")],
         title: "Infrared Transparent and Electromagnetic Shielding Correlated Metals via Lattice-Orbital-Charge Coupling",
         venue: "Nano Letters", venueYear: "22, 6573–6579 (2022)",
+        doi: "10.1021/acs.nanolett.2c01487"
       },
       {
         num: 10, type: "journal", year: 2022,
         authors: [A("M. Sheen"), A("Y. Ko"), A("D. Kim"), A("J. Kim"), A("Jinho Byun"), A("K. Y. Yeon"), A("D. Kim"), A("J. Jung"), A("J. Choi"), A("R. Kim"), A("J. Yoo"), A("I. Kim"), A("C. Joo"), A("N. Hong"), A("J. Lee"), A("S. H. Jeon"), A("S. H. Oh"), A("J. Lee"), A("N. Ahn", { corr: true }), A("C. Lee", { corr: true })],
         title: "Highly efficient blue InGaN nanoscale light-emitting diodes",
         venue: "Nature", venueYear: "608, 56–61 (2022)",
+        doi: "10.1038/s41586-022-04933-5"
       },
       {
         num: 9, type: "journal", year: 2022,
         authors: [A("K. Kang"), A("Jinho Byun"), A("M. Jeen"), A("G. Jo"), A("Y. K. Baek"), A("Jaekwang Lee"), A("H. Jeen")],
         title: "Effect of sintering time on electronic properties of strontium hexaferrite",
         venue: "Ceramics International", venueYear: "48 (9), 12476–12482 (2022)",
+        doi: "10.1016/j.ceramint.2022.01.113"
       },
       {
         num: 8, type: "journal", year: 2022,
         authors: [A("K. Lee"), A("Jinho Byun"), A("K. Park"), A("S. Kang"), A("M.-S. Song"), A("J. Park"), A("Jaekwang Lee"), A("S. Chae", { corr: true })],
         title: "Giant Tunneling Electroresistance in Epitaxial Ferroelectric Ultrathin Films Directly Integrated on Si",
         venue: "Applied Materials Today", venueYear: "26, 101308 (2022)",
+        doi: "10.1016/j.apmt.2021.101308"
       },
       {
         num: 7, type: "journal", year: 2022,
         authors: [A("Jaekwang Lee"), A("M. S. Song"), A("W.-S. Jang"), A("Jinho Byun"), A("H. Lee"), A("M. H. Park"), A("J. Lee"), A("Y.-M. Kim", { corr: true }), A("S. C. Chae", { corr: true }), A("T. Choi", { corr: true })],
         title: "Modulating the ferroelectricity of hafnium zirconium oxide ultrathin films via interface engineering to control the oxygen vacancy distribution",
         venue: "Advanced Materials Interfaces", venueYear: "9 (7), 2101647 (2022)",
+        doi: "10.1002/admi.202101647"
       },
       {
         num: 6, type: "journal", year: 2021,
         authors: [A("Y. Ha"), A("Jinho Byun"), A("Jaekwang Lee"), A("S. Lee")],
         title: "Design Principles for the Enhanced Transparency Range of Correlated Transparent Conductors",
         venue: "Laser & Photonics Reviews", venueYear: "15 (5), 2000444 (2021)",
+        doi: "10.1002/lpor.202000444"
       },
       {
         num: 5, type: "journal", year: 2021,
         authors: [A("Y.-I. Kim", { eq: true }), A("Myoungho Jeong", { eq: true }), A("Jinho Byun", { eq: true }), A("S.-H. Yang"), A("W. Choi"), A("W.-S. Jang"), A("J. Jang"), A("K. Lee"), A("Y. Kim"), A("Jaekwang Lee"), A("E. Lee"), A("Y.-M. Kim", { corr: true })],
         title: "Atomic-scale identification of invisible cation vacancies at an oxide homointerface",
         venue: "Materials Today Physics", venueYear: "16, 100302 (2021)",
+        doi: "10.1016/j.mtphys.2020.100302"
       },
       {
         num: 4, type: "journal", year: 2020,
         authors: [A("J. Jo", { eq: true }), A("Jinho Byun"), A("Jaekwang Lee"), A("D. Choe"), A("I. Oh"), A("J. Park"), A("M.-J. Jin"), A("J. Lee", { corr: true }), A("J.-W. Yoo", { corr: true })],
         title: "Emergence of Multispinterface and Antiferromagnetic Molecular Exchange Bias via Molecular Stacking on a Ferromagnetic Film",
         venue: "Advanced Functional Materials", venueYear: "30 (11), 1908499 (2020)",
+        doi: "10.1002/adfm.201908499"
       },
       {
         num: 3, type: "journal", year: 2019,
         authors: [A("J. Jo", { eq: true }), A("Jinho Byun"), A("I. Oh"), A("J. Park"), A("M.-J. Jin"), A("B.-C. Min"), A("J. Lee", { corr: true }), A("J.-W. Yoo", { corr: true })],
         title: "Molecular tunability of magnetic exchange bias and asymmetrical magnetotransport in metalloporphyrin/Co hybrid bilayers",
         venue: "ACS Nano", venueYear: "13 (1), 894–903 (2019)",
+        doi: "10.1021/acsnano.8b08689"
       },
       {
         num: 2, type: "journal", year: 2018,
         authors: [A("S.-J. Kwon"), A("B.-M. Jung"), A("T. Kim"), A("Jinho Byun"), A("Jaekwang Lee"), A("S.-B. Lee"), A("U.-H. Choi", { corr: true })],
         title: "Influence of Al2O3 Nanowires on Ion Transport in Nanocomposite Solid Polymer Electrolytes",
         venue: "Macromolecules", venueYear: "51 (24), 10194–10201 (2018)",
+        doi: "10.1021/acs.macromol.8b01603"
       },
       {
         num: 1, type: "journal", year: 2017,
         authors: [A("T. T. Ly"), A("G. Duvjir"), A("T. Min"), A("Jinho Byun"), A("T. Kim"), A("M. M. Saad"), A("N. T. M. Hai"), A("S. Cho"), A("Jaekwang Lee", { corr: true }), A("J. Kim", { corr: true })],
         title: "Atomistic study of the alloying behavior of crystalline SnSe1−xSx",
         venue: "Physical Chemistry Chemical Physics", venueYear: "19 (32), 21648–21654 (2017)",
+        doi: "10.1039/c7cp03481d"
       },
     ];
 
@@ -198,8 +202,8 @@
 
     function authorHtml(a) {
       let s = a.me ? "<b>" + a.n + "</b>" : a.n;
-      if (a.eq) s += '<span class="pub-equal">=</span>';
-      if (a.corr) s += '<span class="pub-corr">C</span>';
+      if (a.eq) s += '<span class="pub-equal tooltip" data-tooltip="Equal contribution">=</span>';
+      if (a.corr) s += '<span class="pub-corr tooltip" data-tooltip="Corresponding author">C</span>';
       return s;
     }
 

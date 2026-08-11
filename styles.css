@@ -183,6 +183,42 @@ h2 {
   margin-left: 2px;
   vertical-align: middle;
 }
+.tooltip {
+  position: relative;
+  cursor: help;
+}
+.tooltip::after,
+.tooltip::before {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+.tooltip::after {
+  content: attr(data-tooltip);
+  bottom: 130%;
+  background: #111827;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+.tooltip::before {
+  content: "";
+  bottom: 122%;
+  border: 5px solid transparent;
+  border-top-color: #111827;
+}
+.tooltip:hover::after,
+.tooltip:hover::before {
+  opacity: 1;
+}
 .pub-title {
   color: var(--link);
   margin: 4px 0 3px 0;
