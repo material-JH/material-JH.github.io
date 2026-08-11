@@ -285,10 +285,19 @@ h2 {
 }
 .research-hero.alt .research-hero-figure { order: 2; }
 .research-hero.alt .research-hero-text { order: 1; }
-.research-hero-figure svg {
+.research-hero-figure svg,
+.research-hero-figure img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+.research-hero-caption {
+  margin: 10px 2px 0 2px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #8fa3ab;
 }
 .research-hero-text h3 {
   color: #fff;
