@@ -46,3 +46,15 @@ Updated both `index.html` and `cv_source.html`/`Jinho_Byun_CV.pdf` to add/correc
   different (shorter) title, now corrected.
 
 See `../Papers_Status_Tracker.md` for full evidence behind every forthcoming-paper status claim.
+
+## 2026-10-05 sync
+
+- `cv_source.html` / `Jinho_Byun_CV.pdf`: rebuilt from `../CV/Jinho_Byun_CV.md` (JACS, BTO-FTJ
+  Science Advances and BCFO Advanced Functional Materials now listed as published; talks/posters
+  updated). Co-first marks added per the owner's confirmation: BCFO AFM 2026 (Hojin Lee¶,
+  Joonbong Lee¶, J. Byun¶, Sang-Hyeok Yang¶; 22 authors per CrossRef) and AFM 2020 (J. Jo¶,
+  J. Byun¶).
+- `publications.html`: same co-first marks; the three September 2026 papers moved from
+  accepted/under-review to published with DOIs; AFM 2020 third author corrected to Jaebyeong Lee
+  (CrossRef) and the corresponding author to Jaekwang Lee.
+- `research.html`: BTO-FTJ Science Advances citation changed from "accepted" to 2026.
